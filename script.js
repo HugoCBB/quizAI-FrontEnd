@@ -26,7 +26,7 @@ const formSubmit = () => {
 
 
 const generateCard = async ({ theme, question_quantity }) => {
-      const url = "https://api-quizai-production.up.railway.app/question";
+      const url = "https://api-quizai-production.up.railway.app/question/";
 
       try {
         const response = await fetch(url, {
